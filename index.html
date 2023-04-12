@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<h1 id="h1-element"></h1>
     <div class="main-container">
-        <form>
-            <input type="text" id="uid" name="uid">
-            <input type="submit" value="Submit" onclick="register_uid()">
+        <form id="forumElement">
+            <label for="textbox_id">uuid</label><input type="text" id="textbox_id" name="uid">
+            <input type="button" value="Submit" onclick="register_uid()">
         </form>
+        <div id="table-container">
+
+        </div>
+
     </div>
 
     <script src="js/script.js"></script>
